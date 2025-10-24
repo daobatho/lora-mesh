@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔌 Hệ Thống Đô Thị Thông Minh Sử Dụng LoRa Mesh
 
 > Hệ thống giám sát và thu thập dữ liệu môi trường trong khu đô thị thông minh, sử dụng mạng cảm biến không dây LoRa Mesh để truyền dữ liệu từ các node cảm biến đến Gateway. Gateway sẽ gửi dữ liệu lên backend thông qua MQTT, backend lưu vào cơ sở dữ liệu MySQL và cung cấp API phục vụ giao diện dashboard.
@@ -150,3 +151,7 @@ platformio run --target upload
 - **Vương Tuấn Minh** - B21DCDT153
 
 ---
+=======
+# lora-mesh
+Hệ thống giám sát và điều khiển môi trường dựa trên mạng LoRa Mesh.  Dự án IoT gồm các node cảm biến truyền dữ liệu qua LoRa đến gateway ESP32,  gateway xử lý và gửi dữ liệu lên MQTT để hiển thị trên web.  Mục tiêu là xây dựng hệ thống giám sát môi trường hoạt động ổn định ở khoảng cách xa.
+>>>>>>> 89447325522eb3a38a0cf87ca68f5ce7628100f0
